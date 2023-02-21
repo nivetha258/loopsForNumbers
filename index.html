@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="John Doe">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>js review</title>
+	
+</head>
+<body>
+
+	
+	<script>
+	
+//for 
+for(i=400;i>350;i--){
+	if(i%2!=0){
+		console.log(i)
+	}
+}
+
+//while
+let n=400;
+while(n>350){
+	
+	n--
+		console.log(n)
+	
+	n--;
+}
+
+//do while
+
+
+let num1=400;
+do{
+	if(num1%2!=0){
+		console.log(num1)
+	}
+	num1--;
+	
+}while(num1>350)
+	
+
+
+
+let num1=400;
+do{
+	num1-=1;
+	console.log(num1);
+	num1-=1;
+	
+}while(num1>350)
+	
+
+//print in reverse
+
+let num2 = 8765;
+let result = 0;
+while(num2>0){
+	r = num2%10;
+	num2 = (num2 - r )/10;
+	 result = (result * 10) + r;
+}
+
+console.log(result)
+
+//add digits
+
+let num3 = 879;
+let add = 0;
+while(num3 >0){
+	r =num3 % 10;
+	num3 = (num3 - r)/10;
+	add += r;
+}
+console.log(add);
+
+	</script>
+			
+</body>
+
+</html>
